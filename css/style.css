@@ -13,6 +13,7 @@ header {
   
   .btn-large {
       margin: 0.5em;
+      color: #D7CCB6;
     }
   
   #button:active {
@@ -25,7 +26,7 @@ header {
   }
   
   .new-quote-button {
-    background-color: #DC4A47;
+    background-color: #1B2032;
   }
   
   

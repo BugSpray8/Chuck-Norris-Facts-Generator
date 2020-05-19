@@ -24,10 +24,23 @@ let quotes = [
     "'Lorsque Chuck Norris voit une étoile fillante,celle-ci fait un voeux'",
     "'chuck norris connait le nom du soldat inconnu'"
     ]
+    let color = [
+      "#9A1C1A",
+      "#1B2032",
+      "#DC4A47",
+      "#6B1411"
+      ]
+
   
   
   function getQuote() {
-    var randomNumber = Math.floor(Math.random() * quotes.length);
+    let randomNumber = Math.floor(Math.random() * quotes.length);
     document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber];
   }
+  function getColor(){
+    let randomNumber = Math.floor(Maths.random() * color.length);
+    document.getElementById('newQuoteSection','new-quote-button ').style.backgroundColor = color[randomNumber];
+
+  }
+
   
