@@ -34,13 +34,11 @@ let quotes = [
   
   
   function getQuote() {
-    let randomNumber = Math.floor(Math.random() * quotes.length);
+    let randomNumber = Math.floor(Math.random() * quotes.length) ;
     document.getElementById('newQuoteSection').innerHTML = quotes[randomNumber];
+    let randomColor = Math.floor(Math.random() * color.length)
+    document.getElementById("newQuoteSection").style.backgroundColor = colors[randomColor];
   }
-  function getColor(){
-    let randomNumber = Math.floor(Maths.random() * color.length);
-    document.getElementById('newQuoteSection','new-quote-button ').style.backgroundColor = color[randomNumber];
 
-  }
 
   
